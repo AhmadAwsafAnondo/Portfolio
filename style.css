@@ -21,7 +21,7 @@ nav{
   font-weight: bold;
   position: absolute;
   top: 20%;
-  left: 4.5%;
+  left: 10%;
   margin-bottom: 5px;
 }
 .black{
@@ -31,7 +31,7 @@ nav{
 }
 .orange{
   background:linear-gradient(to left, #ff8800, #ff00dd);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
   font-size: 33px;
@@ -48,6 +48,8 @@ nav ul{
 }
 nav ul li a{
   text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
   color: rgb(255, 255, 255);
   padding: 18px 35px;
   border-radius: 5px;
@@ -74,7 +76,7 @@ nav ul li a:hover{
   padding: 20px;
   position: absolute;
   top: 1.5%;
-  left: 3%;
+  left: 1.9%;
 }
 .image{
   width: 100px;
