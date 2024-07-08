@@ -17,18 +17,24 @@ nav{
   z-index: 1;
 }
 .nav-title{
+  display: inline;
   font-weight: bold;
   position: absolute;
   top: 20%;
-  left: 2%;
+  left: 4.5%;
+  margin-bottom: 5px;
 }
 .black{
   color: rgb(31, 31, 31);
   font-weight: bold;
+  font-size: smaller;
 }
 .orange{
-  color: rgb(255, 123, 0);
+  background:linear-gradient(to left, #ff8800, #ff00dd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-weight: bold;
+  font-size: 33px;
 }
 nav ul{
   list-style: none;
@@ -38,6 +44,7 @@ nav ul{
   position: absolute;
   top: 5%;
   right: 5%;
+  font-size: 15px;
 }
 nav ul li a{
   text-decoration: none;
@@ -56,7 +63,7 @@ nav ul li a:hover{
   background:linear-gradient(to left, #ff8800, #ff00dd);
   width: 100%;
   height: 120px;
-  margin: 0;
+  margin: 0 0 0 0;
   position: absolute;
   top: 0;
   right: 0;
@@ -66,10 +73,8 @@ nav ul li a:hover{
 .logo{
   padding: 20px;
   position: absolute;
-  top: 0%;
-}
-.banner{
-  display: flex;
+  top: 1.5%;
+  left: 3%;
 }
 .image{
   width: 100px;
@@ -98,23 +103,30 @@ nav ul li a:hover{
 }
 .btn-one:hover{
   background:linear-gradient(to right, #ff8800, #ff00dd);
-  color: black;
+
 }
 .btn-two:hover{
   background:linear-gradient(to right, #ff8800, #ff00dd);
-  color: black;
+
 }
 .banner{
+  display: flex;
   position: absolute;
   top: 50%;
   left: 10%;
+}
+.banner-content{
+  display: inline;
 }
 .banner-description{
   text-align: justify;
   width: 50%;
 }
-.circle-one{
-  height: 50px;
-  width: 50px;
-  border-radius: 100px;
+
+.image{
+  width: 400px;
+}
+.banner-content{
+  display: block;
+  margin: -50px 0px 0px 0px;
 }
